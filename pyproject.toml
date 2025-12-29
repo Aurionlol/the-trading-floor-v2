@@ -1,0 +1,36 @@
+[project]
+name = "trading-floor"
+version = "0.1.0"
+description = "Multi-agent market analysis council using CrewAI"
+readme = "README.md"
+requires-python = ">=3.11,<3.14"
+dependencies = [
+    "crewai>=0.80.0",
+    "crewai-tools>=0.14.0",
+    "yfinance>=0.2.40",
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.30.0",
+    "pydantic>=2.0.0",
+    "anthropic>=0.34.0",
+    "sse-starlette>=2.0.0",
+    "pandas>=2.0.0",
+    "numpy>=1.24.0",
+    "python-dotenv>=1.0.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.23.0",
+    "httpx>=0.27.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["backend"]
+
+[project.scripts]
+trading-floor = "backend.main:main"
